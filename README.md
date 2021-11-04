@@ -26,5 +26,5 @@ service yang berfungsi untuk membuat Jadwal Rencana Pembayaran Pengembalian Dana
     - tenor [ex: 12]
 
 # Get
-- url : igrow.test/{payment_id} [ex: igrow.test/ABCDE] Or https://igrow-test.herokuapp.com/ABCDE
+- url : igrow.test/{payment_id} [ex: igrow.test/ABCDE] Or https://igrow-test.herokuapp.com/{payment_id}
 - request : Get
