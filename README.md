@@ -9,12 +9,13 @@ service yang berfungsi untuk membuat Jadwal Rencana Pembayaran Pengembalian Dana
 
 # Deploy
 - Composer install
-- change .env-example file to .env
+- save as .env.example file to .env
+- Create DB name = igrow-db
 - php artisan migrate
 - valet link
 
 # Post
-- url : igrow.test 
+- url : igrow.test [local] Or https://igrow-test.herokuapp.com/ [Online]
 - request : POST
 - Body : 
     - primary_payment [ex: 1000000000]
@@ -25,5 +26,5 @@ service yang berfungsi untuk membuat Jadwal Rencana Pembayaran Pengembalian Dana
     - tenor [ex: 12]
 
 # Get
-- url : igrow.test/{payment_id} [ex: igrow.test/ABCDE]
+- url : igrow.test/{payment_id} [ex: igrow.test/ABCDE] Or https://igrow-test.herokuapp.com/ABCDE
 - request : Get
